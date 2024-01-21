@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="desktop">
+        <div class="taskbar">
+            <div class="left">
+                <div class="start icon-container hover">
+                    <i class="icon icon-app-drawer"></i>
+                </div>
+                <div class="search hover">
+                    <div class="icon-container">
+                        <i class="icon icon-search"></i>
+                    </div>
+                    <input type="text" name="" id="" placeholder="Type here to search">
+                </div>
+                <div class="app icon-container hover">
+                    <i class="icon icon-browser"></i>
+                </div>
+                <div class="app icon-container hover">
+                    <i class="icon icon-launcher"></i>
+                </div>
+                <div class="app icon-container hover">
+                    <i class="icon icon-notepad"></i>
+                </div>
+                <div class="app app-is-open app-focused icon-container hover hide">
+                    <i class="icon icon-calculator"></i>
+                </div>
+            </div>
+            <div class="right">
+                <div class="show-desktop hover"></div>
+                <div class="notifications icon-container hover">
+                    <i class="icon icon-notifications"></i>
+                </div>
+                <div class="date-time centerHV hover">
+                </div>
+                <div class="fullscreen icon-container hover">
+                    <i class="icon icon-fullscreen "></i>
+                    <i class="icon icon-exit-fullscreen hide"></i>
+                </div>
+                <!-- <div class="speaker icon-container hover">
+                    <i class="icon icon-speaker"></i>
+                </div> -->
+                <!-- <div class="color-mode icon-container hover">
+                    <i class="icon icon-night-mode hide"></i>
+                    <i class="icon icon-day-mode"></i>
+                </div>
+                <div class="hidden-icons icon-container hover">
+                    <i class="icon icon-collapse-arrow"></i>
+                </div> -->
+            </div>
+            <div class="start-menu">
+                <div class="left">
+                    <div class="icon-container hover">
+                        <i class="icon icon-settings"></i>
+                    </div>
+                    <div class="icon-container hover">
+                        <i class="icon icon-user"></i>
+                    </div>
+                    <div class="icon-container hover">
+                        <i class="icon icon-add-app"></i>
+                    </div>
+                </div>
+                <div class="main">
+                    <h4>Apps</h4>
+                    <div class="apps">
+                        <div class="calculator centerHV">
+                            <div class="file-icon-container">
+                                <div class="file-icon file-icon-calculator"></div>
+                            </div>
+                            <p>Calculator</p>
+                        </div>
+                        <div class="camera centerHV">
+                            <div class="file-icon-container">
+                                <div class="file-icon file-icon-camera"></div>
+                            </div>
+                            <p>Camera</p>
+                        </div>
+                        <div class="photos centerHV">
+                            <div class="file-icon-container">
+                                <div class="file-icon file-icon-photos"></div>
+                            </div>
+                            <p>Photos</p>
+                        </div>
+                        <div class="clock centerHV">
+                            <div class="file-icon-container">
+                                <div class="file-icon file-icon-clock"></div>
+                            </div>
+                            <p>Clock</p>
+                        </div>
+                        <div class="browser centerHV">
+                            <div class="file-icon-container">
+                                <div class="file-icon file-icon-browser"></div>
+                            </div>
+                            <p>Browser</p>
+                        </div>
+                        <div class="budgetEZ centerHV">
+                            <div class="file-icon-container">
+                                <div class="file-icon file-icon-budget"></div>
+                            </div>
+                            <p>BudgetEZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="screen">
+
+            <div class="screen-file-icons">
+                <div class="file-container" draggable="true">
+                    <div class="file-icon-container">
+                        <i class="file-icon file-icon-computer"></i>
+                    </div>
+                    <p>My Computer</p>
+                </div>
+                <div class="file-container resume" draggable="true">
+                    <div class="file-icon-container">
+                        <i class="file-icon file-icon-pdf"></i>
+                    </div>
+                    <p>Resume.pdf</p>
+                </div>
+            </div>
+
+            <div class="right-click-menu">
+                <ul>
+                    <li>Refresh</li>
+                    <li>New Folder</li>
+                    <li>Change wallpaper</li>
+                    <li>Lock</li>
+                </ul>
+            </div>
+
+            <!-- all open apps will come after here -->
+
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
+</body>
+</html>
+
+<!-- 
+<div class="open-app calculator draggable hide">
+    <div class="topbar">
+        <div class="left">
+            Calculator
+        </div>
+        <div class="right">
+            <div class="app-action-min centerHV">
+                <i class="icon icon-minimize"></i>
+            </div>
+            <div class="app-action-max centerHV">
+                <i class="icon icon-maximize"></i>
+            </div>
+            <div class="app-action-close centerHV">
+                <i class="icon icon-close"></i>
+            </div>
+        </div>
+        
+    </div>                
+
+    <iframe src="/apps/calculator" >
+        
+    </iframe>
+</div> -->
