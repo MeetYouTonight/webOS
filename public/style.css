@@ -152,6 +152,12 @@ li {
     background: url(assets/icons/icons8-add-30.png);
 }
 
+.icon-instatrend {
+    background: url(assets/icons/instatrend-logo.png);
+    background-size: cover;
+
+}
+
 .icon- {
     background: url(assets/icons/icons8);
 }
@@ -202,6 +208,11 @@ li {
 
 .file-icon-budget {
     background: url(assets/file-icons/icons8-budget-60.png);
+}
+
+.file-icon-instatrend {
+    background: url(assets/file-icons/instatrend-logo.png);
+    background-size: cover;
 }
 
 /* ---------------------------------------s */

@@ -10,6 +10,8 @@ const port = 3000
 
 app.use('/', express.static(path.join(__dirname, 'public')))
 
+app.use('/instatrend', express.static(path.join(__dirname, 'public', 'instaTrendRedirect.html')))
+
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })

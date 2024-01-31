@@ -250,7 +250,9 @@ function screenActionHandler(e) {
 			target.ontouchend = endDrag;
 		} else if ( target.classList.contains("file-container") && target.classList.contains("resume") ){
 			new AppInstance(app_resume);
-		}else {
+		} else if ( target.classList.contains("file-container") && target.classList.contains("instatrend") ){
+			new AppInstance(app_instatrend);
+		} else {
 			flag = true;
 			target = target.parentElement;
 		}
@@ -310,6 +312,7 @@ class AppMeta {
 const app_calculator = new AppMeta("Calculator", "/apps/calculator", "icon-calculator", 400, 534);
 const app_camera = new AppMeta("Camera", "/apps/camera", "icon-camera", 500, 400);
 const app_resume = new AppMeta("Resume.pdf", "/apps/resume/resume.pdf", "icon-pdf", 600, 820);
+const app_instatrend = new AppMeta("InstaTrend", '/apps/instatrend', 'icon-instatrend', 400, 400);
 
 const app_clock = new AppMeta("Clock", "/apps/clock", "icon-clock", 200, 200);
 const app_photos = new AppMeta("Photos", "/apps/photos", "icon-photos");
@@ -325,6 +328,7 @@ const DefaultAppMetaObjects = [
 	app_browser,
 	app_budgetEZ,
 	app_resume,
+	app_instatrend
 ];
 let AppMetaObjects = [...DefaultAppMetaObjects];
 
